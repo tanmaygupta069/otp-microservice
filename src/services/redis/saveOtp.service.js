@@ -2,9 +2,7 @@ const { getRedisClient } = require("../../database/redis");
 const convertKey = require("./index");
 /**
  *
- * @param {String} tenantEmail
- * @param {String} useCase
- * @param {String} userEmail
+ * @param {String} key
  * @param {Number} otp
  * @param {Number} expiry
  */
